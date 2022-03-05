@@ -1,10 +1,8 @@
-
 # ejemplo de estaciones
-mes = input("Digita un mes del año ")
 
+mes = input("Digita un mes del año ").lower()
 
 print(f"El Mes digitado fue {mes}")
-
 
 if(mes == "diciembre" or mes =="enero" or mes =="febrero" or mes =="marzo"):
     print("Estas en INVIERNO")
